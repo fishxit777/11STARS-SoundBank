@@ -4,7 +4,7 @@ services:
     runtime: python
     rootDir: .
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn src.app:app
+    startCommand: gunicorn --chdir src app:app
     envVars:
       - key: SOUNDBANK_ENABLED
         value: "true"
@@ -20,3 +20,27 @@ services:
         value: "false"
       - key: SOUNDBANK_PUBLIC_BASE_URL
         value: https://soundbank.example.com
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_SSLMODE
+        value: require
+      - key: ADMIN_TOKEN
+        sync: false
+      - key: SOUNDBANK_SIGNING_SECRET
+        sync: false
+      - key: SOUNDBANK_PAYMENT_WEBHOOK_SECRET
+        sync: false
+      - key: SOUNDBANK_ECPAY_MERCHANT_ID
+        sync: false
+      - key: SOUNDBANK_ECPAY_HASH_KEY
+        sync: false
+      - key: SOUNDBANK_ECPAY_HASH_IV
+        sync: false
+      - key: SOUNDBANK_OBJECT_STORAGE_ACCESS_KEY_ID
+        sync: false
+      - key: SOUNDBANK_OBJECT_STORAGE_SECRET_ACCESS_KEY
+        sync: false
+      - key: SOUNDBANK_OBJECT_STORAGE_ENDPOINT
+        sync: false
+      - key: SOUNDBANK_OBJECT_STORAGE_REGION
+        value: auto
