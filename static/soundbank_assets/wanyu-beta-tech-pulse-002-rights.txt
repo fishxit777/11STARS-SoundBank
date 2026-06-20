@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-TECH-002
+Title: 軟體導覽：流程清楚往前走
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: D806350EAB4294F9CCE57E25FDFFFA188BDC01A92A935BEA31006A0BDFB9225D
+Master SHA-256: 087FD5B2F38565FE0FCD3131D909255B2998E4EB3BE73BEA4842B7A534C8AEDB
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

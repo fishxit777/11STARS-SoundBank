@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-TECH-004
+Title: AI 工具展示：乾淨科技亮點
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 3FBDDA2CB89BF7146C01065E94383AC0CE58E1538DAAA4F6ADC150E58B6D5C52
+Master SHA-256: 5FFBCD16C1580A1262673D32A0392EF30F32A9FC872493AC9D8B61A0A35C6062
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

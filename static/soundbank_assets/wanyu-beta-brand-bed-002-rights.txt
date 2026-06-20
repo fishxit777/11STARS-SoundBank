@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-BRAND-002
+Title: 客戶故事：穩穩把價值說完
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: F11788D727F099C3C2980326985FC40F4B54F907FF8253FC40D2367F0BF19B2C
+Master SHA-256: 52E695B7AD6D4CADBA9BCE0CDA95027E647DBFF2B0F9ABE837D32C9F44AEDAB3
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-CALM-003
+Title: 溫柔收尾：把故事放慢
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: CAB5FFD7909785F5A4B851933017199B2FF8D2D0EA53DF03F00C09B7A1E98BDE
+Master SHA-256: 5000C25CD9F66733846747EABEB4B9C6AA8E11DFEA0F48756897D5B431FE0544
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

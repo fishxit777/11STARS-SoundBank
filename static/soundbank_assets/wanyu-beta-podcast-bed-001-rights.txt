@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-PODCAST-001
+Title: 人聲暖底：開場第一段不空
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-04 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-ORIGINAL-20260604
+Preview SHA-256: 34186273BC6029B8E712596D91ED4D9453BE8EF2AA3F20B194E5598EC7B19911
+Master SHA-256: A7B98FEA4158431AE248CE76067FD037B9096DF137B7539AA4E92DF80F41F8E7
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

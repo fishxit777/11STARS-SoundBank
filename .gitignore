@@ -1,0 +1,14 @@
+_本機作業區_不要上傳/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.sqlite
+*.db
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/

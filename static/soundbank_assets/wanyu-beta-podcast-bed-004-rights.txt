@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-PODCAST-004
+Title: 故事旁白：案例轉場慢慢推
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: A9F35C460A1482B680A534F918255B496E6CD083345688DBDABB3B1A41259CC9
+Master SHA-256: A4B78FF1C7FCABC7B17F00D139566981F9100E5C8916A1E8B11F69F427BE7C9D
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

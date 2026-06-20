@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-CALM-002
+Title: 冥想前奏：留一點空氣
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 92D1304D7A0397259B711075772A914B15BDF7975E465653754D1B8336F621B8
+Master SHA-256: AE9350199319DF6B61D12F4D193114E0EF2B9DA36D55DCF8DF2292AE65449500
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

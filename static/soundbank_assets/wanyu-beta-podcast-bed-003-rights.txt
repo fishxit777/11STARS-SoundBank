@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-PODCAST-003
+Title: 商務解說：品牌聲音更可信
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 0A63B6F36A0F74ABBC0F31959CFE23024A357A80514221FC7114E84845C6C33A
+Master SHA-256: 80F98675FC1B4C2907783EB922BEF4D4C92FA8393B037983C621CC8D4FF2B0B0
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

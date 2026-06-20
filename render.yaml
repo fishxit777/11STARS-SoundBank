@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: soundbank-standalone
+    runtime: python
+    rootDir: .
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.app:app
+    envVars:
+      - key: SOUNDBANK_ENABLED
+        value: "true"
+      - key: SOUNDBANK_SHOW_STARTER_DEMOS
+        value: "true"
+      - key: SOUNDBANK_INIT_DB
+        value: "false"
+      - key: SOUNDBANK_SEED_BETA_ORIGINALS
+        value: "false"
+      - key: SOUNDBANK_FAKE_CHECKOUT_ENABLED
+        value: "false"
+      - key: SOUNDBANK_ALLOW_PUBLIC_MASTER_URLS
+        value: "false"
+      - key: SOUNDBANK_PUBLIC_BASE_URL
+        value: https://soundbank.example.com

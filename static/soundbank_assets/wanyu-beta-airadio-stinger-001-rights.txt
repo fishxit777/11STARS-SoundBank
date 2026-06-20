@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-AIRADIO-001
+Title: 節目亮相：三秒開場識別
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-04 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-ORIGINAL-20260604
+Preview SHA-256: ED2A20DA1BA6265B5325A1394F8EA7B6342DBB7CACFBCACB4D4D9B5A357D47F8
+Master SHA-256: 0AA5469F4E23258372FD91C8BF4F9861ACED01DD86C5797FDDEF26275357BEFA
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

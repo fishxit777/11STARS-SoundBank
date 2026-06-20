@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-PODCAST-002
+Title: 訪談陪襯：對話更好入口
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: D87233386364E2138C1D248983CB60CAB661FD73D1E4E726ABBA480F4F6567E9
+Master SHA-256: 1C26877D19A7B3E9F31FB592A7FDFC8D5E408A405163027738B69BC1DCF39D7C
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-AIRADIO-004
+Title: 知識更新：乾淨未來感
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 982F6F36FC0944C6CE5F5009EE12ED92B2966E415D29994C36CC5B3B58080896
+Master SHA-256: 95A2E086796B9752674998FB23C2B565C6C4DB10242EFE3257C06DD004A7F3CE
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

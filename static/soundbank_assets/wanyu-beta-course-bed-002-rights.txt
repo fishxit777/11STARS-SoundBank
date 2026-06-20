@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-COURSE-002
+Title: 章節轉場：學習節奏更平穩
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: BC3192A6DDB921A948F80112697DD7E84C64C28C3C82A671DFD460C21AD238E0
+Master SHA-256: ADB3CAB3DFE21478A59BBF9172D05C49EA2D88D630D08A8515A5EE054B24447B
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-AIRADIO-002
+Title: 新聞快切：重點進來了
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 35ECC7CB13EEC2F63DB48F5C6C8E6470CCE3186C30B25D4DD7976CAEC415ECE4
+Master SHA-256: 6F3244FEB276981A7F56A0068AC2498E499B0F3F4D87888B2554D204960B99EA
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

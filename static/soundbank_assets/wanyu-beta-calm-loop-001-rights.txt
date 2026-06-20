@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-CALM-001
+Title: 安靜等待：畫面先沉下來
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-04 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-ORIGINAL-20260604
+Preview SHA-256: 48BDB5A31BC0784211EF38541771D856CF7C80CF96DA9E1760EBB1C7CB15032F
+Master SHA-256: 0F14DA3A5B9231903B64BA27B86BEE02874FBFFDF999F2EB6E28A58E8D687B5B
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

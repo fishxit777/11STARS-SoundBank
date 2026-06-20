@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-BRAND-001
+Title: 品牌形象：輕快可信的第一印象
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 0381B062FE6EDB2B4094A479D2B5539231E65C8D60219D1D8A2349E95A7ED2D0
+Master SHA-256: 9331BCEB30EEBDFF14A05EEBBB84698BE5362827DD553430A6981E37081FEC84
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

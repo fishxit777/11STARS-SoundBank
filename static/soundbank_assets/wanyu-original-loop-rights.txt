@@ -1,0 +1,14 @@
+SoundBank staging rights proof
+Material ID: SB-REAL-ORIGINAL-001
+Title: Wanyu Original Loop 001
+Created for: 11STARS SoundBank staging verification
+Created on: 2026-06-04 Asia/Taipei
+Creation method: Original local synthesis generated from mathematical oscillators.
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Source contract ID: STAGING-ORIGINAL-20260604
+Preview SHA-256: F24A7F1BBB736A9D2B09C02FBC21B542F3D1FE843856CDD735AF14BD2247808B
+Master SHA-256: 5961D7CE1BDA7F99BA625F6EF14929064F4D7D1E1E66F77422FB635E6B38B7AC
+Operational note: This proof is for staging validation only and does not claim any third-party catalog rights.

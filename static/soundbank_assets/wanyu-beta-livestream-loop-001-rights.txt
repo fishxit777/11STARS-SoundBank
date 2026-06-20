@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-LIVE-001
+Title: 開播等待：聊天室慢慢進場
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 64CA03790C023B0E1A81B962EA88CB24575B3A99FC2471EE31C7A93B5B930DBB
+Master SHA-256: A374E282B26A6C13DE6E4E2C7A9C226DF6C566A0CB3BDE9193F244DB4FD82579
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

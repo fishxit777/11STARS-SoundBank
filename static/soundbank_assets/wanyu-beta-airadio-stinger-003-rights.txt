@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-AIRADIO-003
+Title: 提醒音：一句話前的亮點
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 74DD097D622DB747C311107A03C20059A108331B2A64B6AD9B25A1EEB0B04319
+Master SHA-256: 15DEA654D7D526D97CAD6FFF42BE2282E514121F4F0F49B2947031A7654F31CD
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

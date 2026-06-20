@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-SHORTS-001
+Title: 商品登場：一秒變有感
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-04 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-ORIGINAL-20260604
+Preview SHA-256: 68453553038B47CC034339AAA21ED02324C889B12EEF760F8DD6D9396CF5ED25
+Master SHA-256: B9F058E2FC2B934A79723CE0AFA1E263A7CDADB11F5BE85B14DA0302A123350C
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

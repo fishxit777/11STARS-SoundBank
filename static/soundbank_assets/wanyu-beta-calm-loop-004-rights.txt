@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-CALM-004
+Title: 直播休息：安靜不尷尬
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 077AE6D26FCF41E8709FCDB9BEA2CB88A90F72AB124E9435ACA6864F20F361F2
+Master SHA-256: 3D1B8A4F6B12CE8ADAB12998FA6EC9A4C91A2273143849FF5648218BB9228EF2
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

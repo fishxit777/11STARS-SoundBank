@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-SHORTS-003
+Title: 生活短片：節奏乾淨不搶畫面
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 96AA6AC36F050E5D6CA04A82E4C4423FB683BF73190D206319EDDAD6A2D97FE2
+Master SHA-256: 3ADD7C17343E167E578EE5157A469A397D0F7920630C79FE5EE45BE5DB626FEF
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

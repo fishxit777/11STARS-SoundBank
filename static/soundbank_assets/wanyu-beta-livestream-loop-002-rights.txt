@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-LIVE-002
+Title: 直播中場：休息不冷場
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 5E2FA002F25DC0812A1442A5AAE57D844A27E2F9733192221C1345EBEBAAED3D
+Master SHA-256: 3A18712AF55675CB70AF4A73ECA9F4CD8F1E20CAC7B903DFBF69176F0416AFC5
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-TECH-003
+Title: 數據解說：理性但不冰冷
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: 8B9A2DF78DB7B6A74ECAA43F5112565FFE4ED7DD29282C8F4D762BE22344532C
+Master SHA-256: ABA5A623CC1148FDC683795E25BD197D2521FF0789457E3782590EE51CDECC3F
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

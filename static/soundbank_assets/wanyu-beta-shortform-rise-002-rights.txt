@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-SHORTS-002
+Title: 開箱亮點：前後對比更順
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-05 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-EXPANSION-20260605
+Preview SHA-256: A95A7F820A431514A10947CB25967B64B24FDD4E8CAD58881C2870D7A611C7AA
+Master SHA-256: 795F2BF86E269F8578289C3B4CCA1E1F50C88659FCD3ABFA0FFD9CF318FECB5D
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.

@@ -1,0 +1,18 @@
+SoundBank beta original rights proof
+Material ID: SB-BETA-TECH-001
+Title: 產品脈動：介面更有速度
+Created for: 11STARS SoundBank beta validation
+Created on: 2026-06-04 Asia/Taipei
+Creation method: Original local synthesis generated from deterministic mathematical oscillators.
+Generator: scripts/soundbank_generate_beta_assets.py
+Third-party samples: none
+Voice/vocal material: none
+Commercial use allowed: yes
+Sublicensing through 11STARS SoundBank allowed: yes
+Content ID registration by buyer: prohibited
+Resale / redistribution / standalone streaming release: prohibited
+AI training use: prohibited
+Source contract ID: BETA-ORIGINAL-20260604
+Preview SHA-256: A6AC88436E157523421070AFB51FD43133AF50B6DE39EDD0E7789A04870075A7
+Master SHA-256: 5264A6428766D4A6FBAE300036B63CB076030F6F9D6770B5DDE1F908E02F342E
+Operational note: Beta catalog material for controlled SoundBank validation. Move masters to private object storage before public launch.
