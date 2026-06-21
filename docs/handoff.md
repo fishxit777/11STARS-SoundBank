@@ -100,6 +100,7 @@ Run locally:
 ```powershell
 cd "C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank"
 .\scripts\verify_standalone.ps1
+python scripts\production_render_log_watch.py --hours 1
 git status -sb
 ```
 
