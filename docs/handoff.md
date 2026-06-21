@@ -14,9 +14,19 @@ its own GitHub repository.
 - Current mode: starter-demo catalog mode
 - Latest copy source: `C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS`
 - Latest verified source commit: `428f554`
+- Render binding verified: `11stars-soundbank` is connected to
+  `https://github.com/fishxit777/11STARS-SoundBank`, branch `main`, with
+  auto-deploy enabled.
+- Latest live Render deploy: `dep-d8rm35naqgkc73bl48jg` from commit
+  `55869f30ee93548242d2373c8f885aa54a44cb99`.
 
 The original WanyuTong / 11STARS production service was not overwritten. The
 standalone Render service is separate from the existing LINE Bot backend.
+
+The old `11stars-soundbank-staging` service still points to
+`https://github.com/fishxit777/11STARS`, branch `feature/soundbank-mvp`, with
+auto-deploy disabled. Treat it as legacy staging/rollback reference only unless
+it is deliberately rebuilt.
 
 ## What Is Live
 
@@ -26,6 +36,12 @@ standalone Render service is separate from the existing LINE Bot backend.
 - `/soundbank.webmanifest` returns 200.
 - Public demo assets are included.
 - Master files are not publicly stored in the repository.
+
+Current online check on 2026-06-21:
+
+- `/healthz`: 200
+- `/soundbank`: 200
+- `/soundbank/tracks`: 200
 
 ## Safety Defaults
 
@@ -40,6 +56,14 @@ The standalone service currently uses safe launch defaults:
 
 These settings allow browsing and preview checks without exposing private master
 files or enabling fake checkout.
+
+## Render Plan Limitation
+
+The standalone `11stars-soundbank` service is currently on Render Free. Free
+instances may spin down after inactivity, so first visits can show Render's
+startup/loading screen before the app responds. Render Free web services also do
+not support custom domains. For a public promotion URL with no cold-start
+waiting and a branded domain, upgrade this service before DNS cutover.
 
 ## Still Needed For Full Production Sales
 

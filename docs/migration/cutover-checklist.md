@@ -18,6 +18,12 @@
 - [ ] DNS/TLS 通過。
 - [ ] Render health check 通過。
 - [ ] 監控腳本可讀最新 deploy 與異常 log。
+- [ ] 獨立 `11stars-soundbank` Render service 已確認連到
+      `fishxit777/11STARS-SoundBank` 的 `main` branch。
+- [ ] 公開推廣前，將獨立 SoundBank Render service 從 Free 升級，避免冷啟動等待
+      並啟用自訂網域。
+- [ ] 舊 `11stars-soundbank-staging` 已標記為 legacy staging、停用、或重新接到
+      standalone repo。
 - [ ] Gmail 異常信件檢查無阻斷項。
 
 ## 金流
