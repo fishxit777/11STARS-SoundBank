@@ -21,13 +21,12 @@ the old `fishxit777/11STARS` repository.
 
 ## Latest Deploy
 
-- Deploy ID: `dep-d8rm35naqgkc73bl48jg`
+- Deploy ID: `dep-d8rmibgjs32c73fvdl00`
 - Status: `live`
 - Trigger: `new_commit`
-- Commit: `55869f30ee93548242d2373c8f885aa54a44cb99`
-- Commit message: `Document standalone SoundBank sync verification`
-- Created: `2026-06-21T03:59:18Z`
-- Updated: `2026-06-21T04:22:58Z`
+- Commit: `b6195ce88073cbeb6f6c4367e53c4b86b2dae9ac`
+- Commit message: `Document Render binding for standalone SoundBank`
+- Updated: `2026-06-21T04:32:35Z`
 
 ## Online Check
 
@@ -36,6 +35,22 @@ Checked after the deploy:
 - `https://one1stars-soundbank.onrender.com/healthz` returned 200.
 - `https://one1stars-soundbank.onrender.com/soundbank` returned 200.
 - `https://one1stars-soundbank.onrender.com/soundbank/tracks` returned 200.
+- `https://one1stars-soundbank.onrender.com/soundbank/license` returned 200.
+- `https://one1stars-soundbank.onrender.com/soundbank.webmanifest` returned 200.
+- `https://one1stars-soundbank.onrender.com/soundbank-sw.js` returned 200.
+
+## Render Raw Log Watch
+
+Using the owner-private Render API key from the local no-upload secret store,
+the one-hour raw log watch passed:
+
+- Error-level logs: 0
+- HTTP 5xx logs: 0
+- Traceback logs: 0
+- Exception logs: 0
+- CheckMac logs: 0
+- ECPay-related HTTP 5xx samples: 0
+- Summary: 7 passes, 0 warnings, 0 failures
 
 ## Legacy Staging Note
 

@@ -17,8 +17,8 @@ its own GitHub repository.
 - Render binding verified: `11stars-soundbank` is connected to
   `https://github.com/fishxit777/11STARS-SoundBank`, branch `main`, with
   auto-deploy enabled.
-- Latest live Render deploy: `dep-d8rm35naqgkc73bl48jg` from commit
-  `55869f30ee93548242d2373c8f885aa54a44cb99`.
+- Latest live Render deploy: `dep-d8rmibgjs32c73fvdl00` from commit
+  `b6195ce88073cbeb6f6c4367e53c4b86b2dae9ac`.
 
 The original WanyuTong / 11STARS production service was not overwritten. The
 standalone Render service is separate from the existing LINE Bot backend.
@@ -42,6 +42,10 @@ Current online check on 2026-06-21:
 - `/healthz`: 200
 - `/soundbank`: 200
 - `/soundbank/tracks`: 200
+- `/soundbank/license`: 200
+- `/soundbank.webmanifest`: 200
+- `/soundbank-sw.js`: 200
+- Render raw log watch for the last 1 hour: 7 passes, 0 warnings, 0 failures.
 
 ## Safety Defaults
 
