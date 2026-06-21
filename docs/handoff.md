@@ -82,6 +82,11 @@ Render only, never in GitHub:
 - ECPay merchant credentials
 - R2 or S3 object-storage credentials
 
+Payment routing and future ownership transfer are covered in
+`docs/migration/payment-transfer-sop.md`. Use that SOP before changing ECPay
+callbacks, ECPay credentials, order prefix rules, or buyer-owner merchant
+settings.
+
 After secrets are configured, run a paid-order test, download-token test,
 refund/void replay test, and email-abnormal check before public promotion.
 
