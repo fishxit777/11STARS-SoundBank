@@ -21,6 +21,18 @@
 .\scripts\verify_standalone.ps1
 ```
 
+## Legacy Sync Guard
+
+`sync_from_11stars.ps1` 只保留給人工比對後的緊急來源同步。現在
+`11STARS-SoundBank` 才是 SoundBank 主線，所以腳本預設會停止，避免把新
+repo 的前台、文件與營運修正覆蓋回舊版。
+
+只有在確認舊 `11STARS` 內容真的要重新匯入時，才可使用：
+
+```powershell
+.\scripts\sync_from_11stars.ps1 -ConfirmLegacySourceSync
+```
+
 ## Render Raw Log Watch
 
 監控正式 SoundBank Render 服務最近一小時錯誤、5xx、Traceback、Exception、CheckMac 與 ECPay 相關異常：

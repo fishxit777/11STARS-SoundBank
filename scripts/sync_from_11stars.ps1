@@ -1,9 +1,14 @@
 param(
-    [string]$SourceRoot
+    [string]$SourceRoot,
+    [switch]$ConfirmLegacySourceSync
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+
+if (-not $ConfirmLegacySourceSync) {
+    throw "Legacy sync is disabled by default because 11STARS-SoundBank is now the SoundBank source of truth. Re-run with -ConfirmLegacySourceSync only after comparing old and new files."
+}
 
 $ProjectRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 $WorkspaceRoot = Resolve-Path (Join-Path $ProjectRoot "..")

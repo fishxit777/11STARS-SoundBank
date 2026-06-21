@@ -1,14 +1,21 @@
 # 萬語聲庫 SoundBank
 
-此資料夾是 SoundBank 獨立化的專案外殼。現在正式線上來源仍在：
-
-`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS`
-
-此獨立專案位置：
+此資料夾是 SoundBank 獨立化專案。現在 SoundBank 的主要開發、GitHub
+備份與獨立 Render 部署來源已改到此 repo：
 
 `C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank`
 
-目前狀態：獨立 GitHub repo 已建立，獨立 Render starter-demo 服務可驗證；尚未切正式流量，尚未從 11STARS 移除任何線上功能。
+GitHub：
+
+`https://github.com/fishxit777/11STARS-SoundBank`
+
+Render：
+
+`https://one1stars-soundbank.onrender.com`
+
+原本 `C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS` 內的
+SoundBank 只保留作歷史備援、拆分來源對照與風險回滾參考；不要再把它
+當成 SoundBank 的新功能主線。
 
 ## 為什麼之前在萬語通 11STARS 裡
 
@@ -41,4 +48,7 @@ SoundBank 一開始採用低風險寄生模式，原因是可以共用既有：
 
 ## 重要界線
 
-此資料夾是獨立 SoundBank 的可執行準備區。線上正式客戶流量仍以 11STARS 內的 SoundBank 為 rollback 來源。任何正式 DNS、ECPay ReturnURL/NotifyURL、R2 bucket 或資料庫切換，都必須等獨立 staging 與付款/下載/授權憑證驗證後再做。
+此資料夾是獨立 SoundBank 的主要可執行專案。正式 DNS、ECPay
+ReturnURL/NotifyURL、R2 bucket 或資料庫切換仍需逐項驗證後才調整；舊
+`11STARS` 內的 SoundBank 只能當歷史備援與拆分對照，不應覆蓋此 repo
+的新前台、文件或營運腳本。
