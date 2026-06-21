@@ -2784,7 +2784,7 @@ def register_soundbank_routes(app, get_db, is_admin_token_valid, check_admin_ip,
           <label>素材編號<input name="track_id" value="''' + _esc(track_id) + '''" readonly></label>
           <label>授權方案<input name="license_type" value="''' + _esc(selected) + '''" readonly></label>
           <label>買方姓名或公司<input name="buyer_name" placeholder="例如：王小明 / 萬語聲庫"></label>
-          <label>Email<input name="buyer_email" placeholder="用來接收訂單與授權資訊"></label>
+          <label>Email<input name="buyer_email" placeholder="用於訂單查詢與授權聯絡"></label>
           <button class="button" type="submit" name="payment_method" value="ecpay">建立 ECPay 付款單</button>
           ''' + ('<button class="button secondary" type="submit" name="payment_method" value="fake">建立測試訂單</button>' if fake_checkout else '') + '''
         </form>
