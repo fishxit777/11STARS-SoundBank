@@ -17,7 +17,8 @@ its own GitHub repository.
 - Render binding verified: `11stars-soundbank` is connected to
   `https://github.com/fishxit777/11STARS-SoundBank`, branch `main`, with
   auto-deploy enabled.
-- Latest live Render deploy: `dep-d8rmibgjs32c73fvdl00` from commit
+- Observed live Render deploy during binding verification:
+  `dep-d8rmibgjs32c73fvdl00` from commit
   `b6195ce88073cbeb6f6c4367e53c4b86b2dae9ac`.
 
 The original WanyuTong / 11STARS production service was not overwritten. The

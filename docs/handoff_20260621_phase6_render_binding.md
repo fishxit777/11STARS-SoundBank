@@ -19,7 +19,11 @@ to the new standalone GitHub repository.
 This means the live standalone SoundBank service is no longer deploying from
 the old `fishxit777/11STARS` repository.
 
-## Latest Deploy
+## Observed Deploy During Verification
+
+This section records the deploy observed during this verification pass. Later
+docs-only commits can create newer Render deploys without changing the service
+binding result.
 
 - Deploy ID: `dep-d8rmibgjs32c73fvdl00`
 - Status: `live`
