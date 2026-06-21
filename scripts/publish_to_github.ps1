@@ -20,9 +20,12 @@ try {
     }
 
     $currentRemote = $null
-    $remoteOutput = git remote get-url origin 2>$null
-    if ($LASTEXITCODE -eq 0 -and $remoteOutput) {
-        $currentRemote = $remoteOutput.Trim()
+    $remoteNames = @(git remote)
+    if ($remoteNames -contains "origin") {
+        $remoteOutput = git remote get-url origin
+        if ($LASTEXITCODE -eq 0 -and $remoteOutput) {
+            $currentRemote = $remoteOutput.Trim()
+        }
     }
 
     if ($currentRemote) {
