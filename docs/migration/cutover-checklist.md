@@ -4,6 +4,13 @@
 
 此清單用於正式從 11STARS 內嵌 SoundBank 切到獨立 SoundBank service 前。
 
+## 相關文件
+
+- `../handoff.md`：目前狀態與下一步。
+- `payment-transfer-sop.md`：ECPay 共用、移轉、出售交接與退刷邊界。
+- `source-map.md`：舊 `11STARS` 與獨立 SoundBank 的來源對照。
+- `migration-plan.md`：分階段拆分計畫。
+
 ## 不可跳過
 
 - [ ] 11STARS production 仍可正常服務萬語通與 LINE Bot。
@@ -11,6 +18,8 @@
 - [ ] 獨立 SoundBank staging 後台通過。
 - [ ] 獨立 SoundBank DB schema 通過。
 - [ ] ECPay staging 或 production dry-run 通過。
+- [ ] 若專案出售或交接，買方 ECPay 憑證、客服資訊、退費資訊與 callback URL 已依
+      `payment-transfer-sop.md` 完成切換。
 - [ ] R2/S3 signed URL 通過。
 - [ ] 退刷 replay guard 通過。
 - [ ] 授權憑證與公開驗證頁通過。

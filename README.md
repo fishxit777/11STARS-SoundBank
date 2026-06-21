@@ -40,11 +40,20 @@ SoundBank 一開始採用低風險寄生模式，原因是可以共用既有：
 
 ## 目前文件
 
+- `docs/README.md`：文件入口與快速索引。
 - `docs/handoff.md`：目前狀態與下一步。
 - `docs/adr/0001-extract-soundbank-from-11stars.md`：架構決策紀錄。
 - `docs/migration/source-map.md`：來源檔案、腳本、資料表、環境變數與外部服務盤點。
 - `docs/migration/migration-plan.md`：分階段拆分計畫。
 - `docs/migration/cutover-checklist.md`：正式切流量前檢查清單。
+- `docs/migration/payment-transfer-sop.md`：ECPay 金流共用、移轉與出售交接 SOP。
+
+## 快速狀態
+
+- 目前主線 repo：`fishxit777/11STARS-SoundBank`
+- 目前正式服務：`https://one1stars-soundbank.onrender.com`
+- 目前切換策略：先維持獨立 Render service，待 DNS/TLS、ECPay callback、R2/S3、退刷 guard 全數通過後再公開推廣。
+- 金流可移轉，但出售或交接時建議改用買方自己的 ECPay 商店憑證，不直接交出原本萬語通/音樂電台共用商店密鑰。
 
 ## 重要界線
 
