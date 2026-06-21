@@ -99,3 +99,49 @@ standalone repo. This is the desired public-repo boundary.
 Run standalone verification, commit this audit, push to GitHub, then let Render
 auto-deploy the documentation/script guard update. After that, run the production
 health check and Render raw-log watch once more.
+
+## Post-Audit Verification
+
+Completed after committing this audit work:
+
+- Commit pushed:
+  `c778102 Document SoundBank split boundary`
+- Render deploy:
+  `dep-d8rna5i8qa3s73a54vrg`
+- Render deploy status:
+  `live`
+- Render deploy commit:
+  `c778102fd952a93615fa39f0e05eb8d28985bcfa`
+- Render deploy finished:
+  `2026-06-21T05:24:02Z`
+
+Local checks:
+
+- `python -m py_compile src\app.py src\soundbank.py scripts\production_render_log_watch.py scripts\verify_standalone.py`
+  passed.
+- `.\scripts\verify_standalone.ps1` passed:
+  Python compile, public master guard, asset counts, local route smoke tests,
+  PWA files, and token-pattern scan.
+- Legacy sync guard passed: running `sync_from_11stars.ps1` without
+  `-ConfirmLegacySourceSync` stops before copying files.
+- `git diff --check` passed. It only reported normal LF/CRLF conversion
+  warnings from Git on Windows.
+
+Online checks:
+
+- `/healthz`: 200
+- `/soundbank`: 200
+- `/soundbank/tracks`: 200
+- `/soundbank/license`: 200
+- `/soundbank.webmanifest`: 200
+- `/soundbank-sw.js`: 200
+- Render raw log watch for the last 1 hour: 7 passes, 0 warnings, 0 failures.
+
+External notification checks:
+
+- `fishxit777/11STARS-SoundBank`: 0 open PRs, 0 open issues.
+- Gmail abnormal query for recent SoundBank/Render deploy/payment/error terms:
+  no matching abnormal email.
+- Gmail had two older GitHub Codex review notification emails from the original
+  `fishxit777/11STARS` repo. They were for PR #155 and PR #163; both PRs are
+  closed and merged, so no action is required.
