@@ -26,7 +26,7 @@ https://github.com/fishxit777/11STARS-SoundBank
 The local standalone repo was pushed to that remote with:
 
 ```powershell
-cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
+cd "C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank"
 .\scripts\publish_to_github.ps1 -RemoteUrl "https://github.com/fishxit777/11STARS-SoundBank.git"
 ```
 

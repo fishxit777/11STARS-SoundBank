@@ -49,6 +49,6 @@ SoundBank 最初放在 `萬語通\11STARS`，用 feature flag 控制曝光，目
 短期會有兩份邊界：
 
 - 11STARS：正式線上 source of truth。
-- 萬語聲庫_SoundBank：獨立化準備區。
+- 萬語通\11STARS-SoundBank：獨立化準備區。
 
 這是刻意保守的做法。正式切換前，所有使用者仍走原 SoundBank URL。

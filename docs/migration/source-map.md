@@ -16,7 +16,7 @@
 
 | 類型 | 目前位置 | 移轉目標 |
 | --- | --- | --- |
-| Flask SoundBank module | `萬語通\11STARS\soundbank.py` | `萬語聲庫_SoundBank\src\soundbank.py` |
+| Flask SoundBank module | `萬語通\11STARS\soundbank.py` | `萬語通\11STARS-SoundBank\src\soundbank.py` |
 | Flask app 掛載 | `萬語通\11STARS\app.py` | 新增獨立 `src\app.py` |
 | Render staging blueprint | `萬語通\11STARS\render.soundbank.staging.yaml` | 新增獨立 `render.yaml` 或 `render.soundbank.yaml` |
 | requirements | `萬語通\11STARS\requirements.txt` | 獨立 requirements，只保留 SoundBank 必要套件 |

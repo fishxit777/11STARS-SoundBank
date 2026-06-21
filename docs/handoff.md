@@ -7,11 +7,13 @@ Updated: 2026-06-21
 SoundBank has been extracted into an independent local project and published to
 its own GitHub repository.
 
-- Local project: `C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank`
+- Local project: `C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank`
 - GitHub repository: `https://github.com/fishxit777/11STARS-SoundBank`
 - Render service: `11stars-soundbank`
 - Public URL: `https://one1stars-soundbank.onrender.com`
 - Current mode: starter-demo catalog mode
+- Latest copy source: `C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS`
+- Latest verified source commit: `428f554`
 
 The original WanyuTong / 11STARS production service was not overwritten. The
 standalone Render service is separate from the existing LINE Bot backend.
@@ -67,7 +69,7 @@ No DNS has been cut over yet, so rollback is simple:
 Run locally:
 
 ```powershell
-cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
+cd "C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank"
 .\scripts\verify_standalone.ps1
 git status -sb
 ```

@@ -21,7 +21,7 @@ Date: 2026-06-21
 Command:
 
 ```powershell
-cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
+cd "C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank"
 .\scripts\sync_from_11stars.ps1
 ```
 

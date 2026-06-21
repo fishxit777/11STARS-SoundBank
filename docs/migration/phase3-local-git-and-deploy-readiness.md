@@ -4,7 +4,7 @@ Date: 2026-06-21
 
 ## Completed
 
-- Initialized `萬語聲庫_SoundBank` as its own local Git repository.
+- Initialized `萬語通\11STARS-SoundBank` as its own local Git repository.
 - Created the first local restore point:
   - Commit: `be451af Initialize standalone SoundBank project`
   - Branch: `main`

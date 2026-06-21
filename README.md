@@ -4,7 +4,11 @@
 
 `C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS`
 
-目前狀態：規劃中，尚未切流量，尚未從 11STARS 移除任何線上功能。
+此獨立專案位置：
+
+`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank`
+
+目前狀態：獨立 GitHub repo 已建立，獨立 Render starter-demo 服務可驗證；尚未切正式流量，尚未從 11STARS 移除任何線上功能。
 
 ## 為什麼之前在萬語通 11STARS 裡
 
@@ -37,4 +41,4 @@ SoundBank 一開始採用低風險寄生模式，原因是可以共用既有：
 
 ## 重要界線
 
-此資料夾目前不是正式執行中的產品程式碼。線上客戶仍看到 11STARS 內的 SoundBank。任何正式部署、DNS、ECPay ReturnURL/NotifyURL、R2 bucket 或資料庫切換，都必須等獨立 staging 驗證後再做。
+此資料夾是獨立 SoundBank 的可執行準備區。線上正式客戶流量仍以 11STARS 內的 SoundBank 為 rollback 來源。任何正式 DNS、ECPay ReturnURL/NotifyURL、R2 bucket 或資料庫切換，都必須等獨立 staging 與付款/下載/授權憑證驗證後再做。

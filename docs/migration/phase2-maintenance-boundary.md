@@ -28,7 +28,7 @@ depending on manual file copying.
 ## Safe Local Flow
 
 ```powershell
-cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
+cd "C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS-SoundBank"
 .\scripts\sync_from_11stars.ps1
 .\scripts\verify_standalone.ps1
 .\scripts\run_local.ps1
