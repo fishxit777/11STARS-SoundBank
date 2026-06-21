@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: soundbank-standalone
+    name: 11stars-soundbank
     runtime: python
     rootDir: .
     buildCommand: pip install -r requirements.txt
@@ -19,7 +19,7 @@ services:
       - key: SOUNDBANK_ALLOW_PUBLIC_MASTER_URLS
         value: "false"
       - key: SOUNDBANK_PUBLIC_BASE_URL
-        value: https://soundbank.example.com
+        value: https://one1stars-soundbank.onrender.com
       - key: DATABASE_URL
         sync: false
       - key: DATABASE_SSLMODE

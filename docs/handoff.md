@@ -1,43 +1,81 @@
-# SoundBank 獨立化交接
+# SoundBank Standalone Handoff
 
-更新日期：2026-06-21
+Updated: 2026-06-21
 
-## 現況
+## Current State
 
-SoundBank 目前是 `萬語通\11STARS` 裡的 feature-gated 子功能，正式路徑為：
+SoundBank has been extracted into an independent local project and published to
+its own GitHub repository.
 
-- 前台：`https://one1stars-line-bot.onrender.com/soundbank`
-- 核心模組：`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS\soundbank.py`
-- 掛載點：`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS\app.py`
-- 靜態素材：`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS\static\soundbank_assets`
-- 文件與 runbook：`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS\docs\soundbank_*`
-- 腳本：`C:\Users\bao58\OneDrive\文件\New project\萬語通\11STARS\scripts\soundbank_*`
+- Local project: `C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank`
+- GitHub repository: `https://github.com/fishxit777/11STARS-SoundBank`
+- Render service: `11stars-soundbank`
+- Public URL: `https://one1stars-soundbank.onrender.com`
+- Current mode: starter-demo catalog mode
 
-## 本次完成
+The original WanyuTong / 11STARS production service was not overwritten. The
+standalone Render service is separate from the existing LINE Bot backend.
 
-- 建立獨立專案外殼：`C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank`
-- 建立移轉 source map、架構決策、分階段計畫與 cutover 清單。
-- 未更動 11STARS 線上程式碼。
-- 未搬移正式流量、金流、DNS、客戶資料、密鑰或 master 音檔。
+## What Is Live
 
-## 為什麼不能直接拖過來
+- `/healthz` returns 200.
+- `/soundbank` returns 200.
+- `/soundbank/tracks` returns 200.
+- `/soundbank.webmanifest` returns 200.
+- Public demo assets are included.
+- Master files are not publicly stored in the repository.
 
-SoundBank 不是只有頁面。它包含付款、授權、憑證、下載簽章、退刷保護、資料表初始化、管理員頁、監控、R2/S3 私有檔與 Render 環境變數。直接移動資料夾會造成付款回呼、下載連結、憑證驗證或後台查詢中斷。
+## Safety Defaults
 
-## 下一步
+The standalone service currently uses safe launch defaults:
 
-Phase 1：抽離可執行 app 骨架。
+- `SOUNDBANK_ENABLED=true`
+- `SOUNDBANK_SHOW_STARTER_DEMOS=true`
+- `SOUNDBANK_INIT_DB=false`
+- `SOUNDBANK_SEED_BETA_ORIGINALS=false`
+- `SOUNDBANK_FAKE_CHECKOUT_ENABLED=false`
+- `SOUNDBANK_ALLOW_PUBLIC_MASTER_URLS=false`
 
-目標是把 11STARS 內的 SoundBank 程式碼 copy 到此專案的 `src`，包成獨立 Flask app，但仍只在本機或 staging 跑，不切正式流量。
+These settings allow browsing and preview checks without exposing private master
+files or enabling fake checkout.
 
-驗收條件：
+## Still Needed For Full Production Sales
 
-- 本機可啟動 `/soundbank`。
-- `python -m py_compile` 通過。
-- 前台主要頁面與手機版 layout 可檢查。
-- 付款與下載仍預設 disabled 或 mock，不碰正式 ECPay。
-- 文件列出剩餘耦合點。
+Before the standalone site accepts real standalone orders, configure these in
+Render only, never in GitHub:
 
-預估時間：30-45 分鐘。
+- `DATABASE_URL`
+- `ADMIN_TOKEN`
+- `SOUNDBANK_SIGNING_SECRET`
+- `SOUNDBANK_PAYMENT_WEBHOOK_SECRET`
+- ECPay merchant credentials
+- R2 or S3 object-storage credentials
 
-是否需要使用者驗證：目前不需要。
+After secrets are configured, run a paid-order test, download-token test,
+refund/void replay test, and email-abnormal check before public promotion.
+
+## Rollback
+
+No DNS has been cut over yet, so rollback is simple:
+
+1. Keep using the existing WanyuTong SoundBank URL.
+2. Suspend or delete the standalone Render service if needed.
+3. GitHub history can restore the standalone repo to any previous commit.
+
+## Verification
+
+Run locally:
+
+```powershell
+cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
+.\scripts\verify_standalone.ps1
+git status -sb
+```
+
+Check online:
+
+```text
+https://one1stars-soundbank.onrender.com/healthz
+https://one1stars-soundbank.onrender.com/soundbank
+https://one1stars-soundbank.onrender.com/soundbank/tracks
+```

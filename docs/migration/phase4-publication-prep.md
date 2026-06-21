@@ -4,64 +4,48 @@ Date: 2026-06-21
 
 ## Result
 
-The standalone SoundBank project is locally ready for GitHub and Render
-publication, but the external GitHub repository does not exist yet.
+The standalone SoundBank project has been published to GitHub and deployed to a
+separate Render web service.
 
-The GitHub connector currently exposed file and pull-request tools for existing
-repositories, but not a create-repository tool. The local machine also does not
-have `gh` or `render` CLI installed, so repository creation and Render Blueprint
-creation cannot be completed fully from the terminal yet.
+- GitHub repository: `https://github.com/fishxit777/11STARS-SoundBank`
+- Render service: `11stars-soundbank`
+- Public URL: `https://one1stars-soundbank.onrender.com`
+- First live deploy commit: `a500cf160e5d00dba57922c7065ce6cc945d7c92`
 
-## Safe Publish Path
+This deployment did not overwrite the existing WanyuTong / 11STARS production
+service.
 
-Recommended repository name:
+## Publish Path Used
 
-```text
-11STARS-SoundBank
-```
-
-Reason:
-
-- It keeps SoundBank separate from `11STARS`.
-- It avoids overwriting the current WanyuTong/LINE Bot repository.
-- It is still recognizable as part of the 11STARS product family.
-
-Manual one-time action:
-
-1. Open GitHub new repository page:
+The user created an empty GitHub repository:
 
 ```text
-https://github.com/new
+https://github.com/fishxit777/11STARS-SoundBank
 ```
 
-2. Create an empty repository named:
-
-```text
-11STARS-SoundBank
-```
-
-3. Do not add README, .gitignore, or license in GitHub. This local project
-   already has those files.
-
-4. After the repo exists, run:
+The local standalone repo was pushed to that remote with:
 
 ```powershell
 cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
 .\scripts\publish_to_github.ps1 -RemoteUrl "https://github.com/fishxit777/11STARS-SoundBank.git"
 ```
 
-## Render Path After GitHub Exists
+## Render Path Used
 
-Use Render Blueprint after the GitHub repo is pushed:
+The service was created directly through the Render API because a valid local
+Render API key was available. The checked-in `render.yaml` is aligned with the
+service name and public URL for future reproducible deployment.
 
-```text
-https://dashboard.render.com/blueprint/new
-```
+The service currently runs in safe starter-demo mode:
 
-Select the new `fishxit777/11STARS-SoundBank` repository and use the checked-in
-`render.yaml`.
+- browsing and preview pages are enabled;
+- fake checkout is disabled;
+- master files are not public;
+- database-backed sales are not enabled yet.
 
-Required Render secrets must be added in the dashboard. Do not commit them:
+## Secrets Still Needed For Full Production Sales
+
+Add these in Render only, never in GitHub:
 
 - `DATABASE_URL`
 - `ADMIN_TOKEN`
@@ -75,23 +59,27 @@ Required Render secrets must be added in the dashboard. Do not commit them:
 - `SOUNDBANK_OBJECT_STORAGE_ACCESS_KEY`
 - `SOUNDBANK_OBJECT_STORAGE_SECRET_KEY`
 
+## Verification Completed
+
+Online checks:
+
+```text
+https://one1stars-soundbank.onrender.com/healthz
+https://one1stars-soundbank.onrender.com/soundbank
+https://one1stars-soundbank.onrender.com/soundbank/tracks
+https://one1stars-soundbank.onrender.com/soundbank.webmanifest
+```
+
+Expected current health mode:
+
+```json
+{"ok":true,"service":"soundbank-standalone","database_configured":false,"mode":"starter-demo"}
+```
+
 ## Rollback
 
-Until DNS is changed, this phase has no customer-facing effect.
+Until DNS is changed, this standalone deployment has no customer-facing effect
+on the existing WanyuTong / 11STARS production service.
 
-If GitHub publishing fails, remove the wrong remote and retry:
-
-```powershell
-git remote remove origin
-```
-
-If Render deployment fails, keep the existing production service untouched and
-fix the standalone service separately.
-
-## Verification Commands
-
-```powershell
-cd "C:\Users\bao58\OneDrive\文件\New project\萬語聲庫_SoundBank"
-.\scripts\verify_standalone.ps1
-git status -sb
-```
+If needed, suspend or delete only the standalone Render service. Keep the
+existing production service untouched.
